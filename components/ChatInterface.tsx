@@ -17,7 +17,9 @@ export default function ChatInterface({ docId, filename }: ChatInterfaceProps) {
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [isListening, setIsListening] = useState(false);
+  // const [recognition, setRecognition] = useState<SpeechRecognition | null>(null);
   const [recognition, setRecognition] = useState<SpeechRecognition | null>(null);
+
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
