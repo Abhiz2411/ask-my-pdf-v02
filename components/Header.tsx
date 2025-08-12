@@ -11,7 +11,7 @@ export default function Header() {
             <h1 className="text-xl font-semibold">PDF Chatbot</h1>
           </div>
           <Link
-            href="https://github.com/myusername/myrepo"
+            href="https://github.com/Abhiz2411/ask-my-pdf-v02"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
